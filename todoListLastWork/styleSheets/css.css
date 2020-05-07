@@ -1,0 +1,157 @@
+
+body {
+    background: url(../images/elephants.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 1190px;
+    background-attachment: fixed;
+}
+
+.container {
+   border-radius: 10px;
+    margin: 0 auto;
+    border: 6px solid rgb(0, 5, 75);
+    width: 38%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    color: rgb(177, 56, 0);
+    font-size: 56px;
+}
+
+#addForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#addForm .words {
+    width: 21.5em;
+    height: 2em;
+    border-radius: 5px;
+    background: url(../images/elephants.jpg);
+}
+
+#addForm button{
+width: 9.7em;
+border-radius: 5px;
+color: rgb(177, 56, 0);
+font-weight: 600;
+font-size: 14px;
+text-transform: uppercase;
+background: url(../images/elephants.jpg);
+cursor: pointer;
+}
+
+.item {
+    
+    width: 27em;
+    border-bottom: solid orange 3px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item p {
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(177, 56, 0);
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bascet {
+    margin-top: 15px;
+}
+
+.bascet  img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+
+
+/* отступ и текст для плейсхолдера */
+::-webkit-input-placeholder {
+    padding-left: 3px;
+    color: rgb(177, 56, 0);
+    font-size: 16px;
+    font-weight: 500;
+    }
+    
+    :-moz-placeholder { /* Firefox 18- */
+        padding-left: 3px;  
+        color: rgb(177, 56, 0);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    ::-moz-placeholder {  /* Firefox 19+ */
+        padding-left: 3px;  
+        color: rgb(177, 56, 0);
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    :-ms-input-placeholder {  
+        padding-left: 3px; 
+        color: rgb(177, 56, 0);
+        font-size: 16px;
+        font-weight: 500;
+    }
+/* отступ и текст для плейсхолдера */
+
+
+
+
+
+
+
+/* 
+.container {
+    width: 250px;
+    height: 200px;
+    position: relative;
+}
+
+.header3 {
+    left: 350px;
+
+}
+
+.words {
+    position: absolute;
+    top: 30px;
+    left: 38px;
+}
+
+.list {
+    /* width: 70px;
+    height: 45px; */
+    /* background: rgb(107, 211, 202); */
+/* }
+
+.ulli {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+}
+
+.il {
+    margin: 15px;
+} */
+ /* */ 
