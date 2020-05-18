@@ -70,9 +70,14 @@ let appData = {
   },
   chooseIncome: function () {
     let items = prompt("Что принесет дополнительный доход? (Перечислите через запятую)", "");
-    appData.income = items.split(', ');
-    appData.income.push(prompt('Может что то еще??'));
-    appData.income.sort();
+
+    if (typeof (items) != "string" || items == "" || typeof (items) == null) {
+      console.log("Пожалуйста, введите корректные данные!");
+    } else {
+      appData.income = items.split(", ");
+      appData.income.push(prompt("Может что-то еще?"));
+      appData.income.sort();
+    }
     
     appData.income.forEach(function (item, index) {
       console.log("Способы дополнительного заработка: " + (index + 1) + ": " + item);
