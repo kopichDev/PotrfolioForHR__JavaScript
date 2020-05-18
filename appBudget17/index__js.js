@@ -73,5 +73,13 @@ let appData = {
     appData.income = items.split(', ');
     appData.income.push(prompt('Может что то еще??'));
     appData.income.sort();
+    
+    appData.income.forEach(function (item, index) {
+      console.log("Способы дополнительного заработка: " + (index + 1) + ": " + item);
+    });
   }
 };
+
+for (let key in appData) {
+  console.log("Наша программа включает в себя данные : " + key + " - " + appData[key]);
+}
